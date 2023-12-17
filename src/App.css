@@ -1,38 +1,70 @@
-.App {
+
+@import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+
+body {
+  font-family: "Nanum Pen Script";
+  background-color: rgb(194, 228, 212);
+  line-height: 1.5;
+  font-weight: bolder;
+  margin-left : 50px;
+  }
+header {
   text-align: center;
+  font-size: 250px;
+  margin-bottom: 50px;
+}  
+#index{
+  font-size: 150px;
+  margin-left : 500px; 
+}
+.container {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+}
+nav {
+  font-family: "Hi Melody";
+  margin-left: 20px;
+  font-size: 50px;
+}
+main{
+  font-family: "Hi Melody";
+  margin-left: 20px;
+  background-color: rgb(147, 224, 188);
+  font-size: 70px;
+}
+footer {
+  text-align: center;
+  background-color: rgb(201, 243, 234);
+  color: black;
+  font-size: 20px;
+}
+a:link, a:visited {
+  background-color:#eeeeee; 
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  width:450px;
+  font-size: 1.5em;
+}
+a:hover, a:active { 
+  background-color: #FF4500; 
+  color:white ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  font-family: "Hi Melody";
+  background-color:rgb(1, 58, 30);
+  color: white ;
+  padding: 10px 20px;
+  margin: 20px; 
+  font-size: 2em;
+  cursor: pointer;
+  transition-duration: 1s;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button:hover {
+  background-color: rgb(140, 0, 255);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
